@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(4, 27, 61);
+    margin: 0;
+    padding: 0;
+}
+
+#infoResult {
+    display: flex;                
+    justify-content: space-evenly; 
+    margin-top: 300px;             
+    flex-wrap: wrap;              
+}
+
+#infoResult > div {             
+    width: 13%;                  
+    margin: 10px;                 
+}
+
+.acima40title, .acima35title, .acima30title, .acima25title, .acima18title, .abxNormaltitle {
+    color: rgb(226, 230, 183) !important;
+    font-size: 23px;
+    text-align: center;
+}
+
+.acima40grau, .acima35grau, .acima30grau, .acima25grau, .acima18grau, .abxNormalgrau {
+    font-size: 17px;
+    text-align: center;
+}
+
+#grau3, #grau2, #grau1, #sobrepeso, .normal, #abxNormal {
+    font-size: 16px; 
+}
+
+#infoResult > div p {
+    color: white;
+}
+
+.acima40grau, .acima35grau, .acima30grau, .acima25grau {
+    color: rgb(187, 65, 35) !important;
+}
+
+.acima18grau {
+    color: rgb(71, 169, 235) !important;
+}
+
+.abxNormalgrau {
+    color: rgb(255, 123, 0) !important;
+}
